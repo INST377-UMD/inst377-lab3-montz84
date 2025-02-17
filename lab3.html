@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>lab3</title>
+    <link rel="stylesheet" href="lab3.css" />
+  </head>
+
+  <body>
+    <!--header-->
+    <div class="bar">
+      <header>
+        <h1>yo we are playing rps</h1>
+      </header>
+    </div>
+
+    <!--navigation-->
+    <nav id="main-nav">
+      <ul>
+        <li>
+          <a href="https://www.testudo.umd.edu/">testudo</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/">youtube</a>
+        </li>
+
+        <li>
+          <a href="https://www.w3schools.com/">w3 schools</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- main content -->
+    <div class="main-container">
+      <div class="content-area">
+        <div class="content-box">
+          <h1>rps</h1>
+          <form name="rpsgame">
+            <!-- name -->
+            <label for="name">name:</label>
+            <input type="text" id="name" required />
+            <br />
+            <!-- selection -->
+            <label for="selection">selection: </label>
+            <select id="selection" name="selection">
+              <option value="rock">rock</option>
+              <option value="paper">paper</option>
+              <option value="scissors">scissors</option>
+            </select>
+            <br />
+            <!-- sumbit -->
+            <input type="submit" value="submit" />
+          </form>
+        </div>
+      </div>
+
+      <aside id="rules">
+        <h1>rules</h1>
+        <ul>
+          <li>rock beats scissors</li>
+          <li>scissors beats paper</li>
+          <li>paper beats rock</li>
+        </ul>
+      </aside>
+    </div>
+
+    <div class="bar">
+      <!--footer-->
+      <footer>
+        <p>some filler text B</p>
+      </footer>
+    </div>
+  </body>
+</html>
